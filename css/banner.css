@@ -1,0 +1,55 @@
+@charset "utf-8";
+/* CSS Document */
+.nivoSlider img {position:absolute;top:0px;left:0px;}
+/* If an image is wrapped in a link */
+.nivoSlider a.nivo-imageLink {position:absolute;top:0px;left:0px;width:100%;height:100%;border:0;padding:0;margin:0;z-index:60;display:none;}
+/* The slices in the Slider */
+.nivo-slice {display:block;position:absolute;z-index:50;height:100%;}
+/* Caption styles */
+.nivo-caption {	position:absolute;left:0px;bottom:0px;background:#000;color:#fff;opacity:0.8; /* Overridden by captionOpacity setting */width:100%;z-index:89;}
+.nivo-caption p {padding:5px;margin:0;}
+.nivo-caption a {display:inline !important;}
+.nivo-html-caption {display:none;}
+/* Direction nav styles (e.g. Next & Prev) */
+.nivo-directionNav a {position:absolute;top:45%;z-index:99;cursor:pointer;}
+.nivo-prevNav {left:0px;}
+.nivo-nextNav {right:0px;}
+/* Control nav styles (e.g. 1,2,3...) */
+.nivo-controlNav a {position:relative;z-index:99;cursor:pointer;}
+.nivo-controlNav a.active {font-weight:bold;}
+.ye{display:block;width:52px;height:41px;background-image:url(../images/gaoerfush_03_27.gif);background-repeat:repeat-x;}
+.ye p{color:#FFF;}
+.tu3{width:130px;height:41px;float:right;}
+.tu3 img{float:right;margin-right:10px;}
+
+
+#幻灯片效果css
+#slider-wrapper { background:url(../images/slider.png) no-repeat;width:98px;  height:92px;margin:0 auto;padding-top:4px; margin-top:1px;}
+#slider {position:relative; width:1340px; height:348px; margin:0 auto;background:url(../images/loading.gif) no-repeat 50% 50%;}
+#slider img {position:absolute;top:0px;left:0px;display:none;}
+#slider a {border:0;display:block;}	
+.nivo-controlNav {position:absolute;left:400px;bottom:-30px;}
+.nivo-controlNav a {display:block;width:22px;height:22px;background:url(../images/bullets.png) no-repeat;text-indent:-9999px;border:0;margin-right:3px;float:left;}
+.nivo-controlNav a.active {background-position:0 -22px;}
+.nivo-directionNav a {display:block;width:30px;height:30px;background:url(../images/arrows.png) no-repeat;text-indent:-9999px;border:0;}
+a.nivo-nextNav {background-position:-30px 0;right:15px;}
+a.nivo-prevNav {left:15px;}
+.nivo-caption { text-shadow:none;font-family: Helvetica, Arial, sans-serif;}
+.nivo-caption a {  color:#efe9d1; text-decoration:underline;}
+#wrapper{margin-top:24px;}
+#nav { line-height: 24px; list-style-type: none; background:#666; width:100%;  }
+#nav a { display: block; width:70px; text-align:center; }
+#nav a:link { color:#666; text-decoration:none; }
+#nav a:visited { color:#666; text-decoration:none; }
+#nav a:hover { color:#FFF; text-decoration:none; font-weight:bold; }
+#nav li { float: left; width:80px; padding-right:10px;  }
+#nav li a:hover { background:#162956; display:block; width:89px; }
+#nav li ul { line-height: 27px; list-style-type: none; text-align:left; left: -999em; width: 960px; position: absolute; float:left; margin-left:216px;}
+#nav li ul li { float: left; width: 120px; background: #F6F6F6; }
+#nav li ul a { display: block; width: 120px; text-align:center; line-height:25px;}
+#nav li ul a:link { color:#666; text-decoration:none; }
+#nav li ul a:visited { color:#666; text-decoration:none;   }
+#nav li ul a:hover { color:#858585; text-decoration:none; font-weight:normal; background:#d7d7d7;display:block; height:25px; width:120px; }
+#nav li:hover ul { 0: 0; }
+#nav li.sfhover ul { left: 0; }
+#content { clear: left;}
